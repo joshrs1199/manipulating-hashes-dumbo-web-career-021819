@@ -14,6 +14,9 @@ def first_challenge
   }
 
   #your code here
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].reject do |flavor|
+    flavor == "strawberry"
+  end
 
 
   #remember to return your newly altered contacts hash!
